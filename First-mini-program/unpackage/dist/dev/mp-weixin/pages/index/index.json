@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "home-nav": "../../components/Home-Nav/Home-Nav"
+  }
+}

@@ -3,15 +3,44 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": ""
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/MySpace/MySpace",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "青义陪诊",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#31C27C",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	
+	"tabBar": {
+		"color": "#CCCCFF",
+		"selectedColor": "#31C27C",
+		// list是一个对象数组
+		"list": [
+			{
+				"text":"首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/Home.png",
+				"selectedIconPath": "static/images/Home-s.png"
+			},
+			{
+				"text":"我的",
+				"pagePath": "pages/MySpace/MySpace",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user-s.png"
+			}
+		]
+	}
 }

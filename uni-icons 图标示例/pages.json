@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "path": "pages/icons/icons",
+      "style": {
+        "navigationBarTitleText": "Icons 图标"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

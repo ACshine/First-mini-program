@@ -1,0 +1,1 @@
+<view class="box data-v-f2e679f4"><view wx:for="{{a}}" wx:for-item="row" wx:key="c" class="label data-v-f2e679f4" hover-class="hover"><view class="icon data-v-f2e679f4"><image class="img data-v-f2e679f4" src="{{row.a}}"></image></view><text class="info data-v-f2e679f4">{{row.b}}</text></view></view>
